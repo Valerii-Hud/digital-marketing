@@ -1,3 +1,6 @@
-h1 {
-  color: red;
-}
+@use '/src/sass/base/normolize';
+@use '/src/sass/base/basic';
+
+@use '/src/sass/blocks/titles';
+@use '/src/sass/blocks/header';
+@use '/src/sass/blocks/hero';

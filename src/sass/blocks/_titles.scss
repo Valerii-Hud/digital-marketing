@@ -1,0 +1,20 @@
+.title {
+  color: black;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  &_h1 {
+    font-size: 60px;
+  }
+  &_h2 {
+    font-size: 40px;
+  }
+  &_h3 {
+    font-size: 30px;
+  }
+  &_h4 {
+    font-size: 20px;
+  }
+  &_p {
+    font-size: 16px;
+  }
+}
