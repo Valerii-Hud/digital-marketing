@@ -1,0 +1,111 @@
+@use '/src/sass/base/variables' as *;
+.services {
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__title {
+    padding: 0 7px;
+    border-radius: 8px;
+    background-color: $main-color;
+  }
+  &__text {
+    width: 580px;
+  }
+  &__more {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-top: 100px;
+    &_svg {
+      width: 41px;
+      height: 41px;
+      svg {
+        transition: all 0.5s ease;
+      }
+      svg:hover {
+        background-color: #fff;
+        border: 1px solid #000;
+        fill: none;
+        path {
+          fill: $dark-gray;
+        }
+      }
+    }
+    svg {
+      background-color: #000;
+      padding: 9px;
+      height: 100%;
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+  &__descr {
+    span {
+      border-radius: 10px;
+      padding: 0 7px;
+      font-size: 30px;
+      font-family: Space Grotesk;
+      font-weight: 500;
+      background-color: $main-color;
+    }
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  &__card {
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+
+    border-bottom: 8px solid #000;
+    justify-content: space-between;
+    padding: 50px;
+    &-img {
+      height: 100%;
+    }
+    &:nth-child(2) {
+      background-color: $main-color;
+      span {
+        background-color: #fff;
+      }
+    }
+    &:nth-child(5) {
+      background-color: $main-color;
+      span {
+        background-color: #fff;
+      }
+    }
+
+    &:nth-child(3n) {
+      background-color: $dark-gray;
+      .services__more {
+        color: #fff;
+        &_svg {
+          svg {
+            background-color: #fff;
+            &:hover {
+              background-color: $main-color;
+            }
+            path {
+              fill: $dark-gray;
+            }
+          }
+        }
+      }
+      span {
+        background-color: #fff;
+      }
+    }
+    &:nth-child(6) {
+      span {
+        background-color: $main-color;
+      }
+    }
+  }
+}
