@@ -19,6 +19,7 @@
     "vite-plugin-pug": "^0.4.1"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "just-validate": "^4.3.0",
     "less": "^4.3.0",
     "pug": "^3.0.3",

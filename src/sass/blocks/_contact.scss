@@ -1,0 +1,28 @@
+@use '/src/sass/base/variables' as *;
+
+.contact {
+  margin-top: 120px;
+  margin-bottom: 200px;
+  &__wrapper {
+    position: relative;
+    background-color: $light-gray;
+    padding: 30px 60px;
+    border-radius: 50px;
+  }
+  &__title {
+    font-size: 30px;
+    width: 500px;
+  }
+  &__text {
+    font-size: 18px;
+    width: 500px;
+  }
+  &__btn {
+    margin-top: 26px;
+  }
+  &__img {
+    position: absolute;
+    right: 0;
+    top: -30px;
+  }
+}

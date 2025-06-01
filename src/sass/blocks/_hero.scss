@@ -15,20 +15,6 @@
   }
   &__btn {
     margin-top: 55px;
-    padding: 20px 35px;
-    border-radius: 20px;
-    background-color: $dark-gray;
-    color: white;
-    font-size: 20px;
-    font-family: Space Grotesk;
-    font-weight: 400;
-    line-height: 28px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    &:hover {
-      background-color: $light-gray;
-      color: $dark-gray;
-    }
   }
   &__companies {
     margin-top: 70px;
@@ -38,6 +24,11 @@
   &__company {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
+    &-wrapper {
+      overflow: hidden;
+      width: 100%;
+      white-space: nowrap;
+    }
     &:hover {
       filter: grayscale(0%);
     }

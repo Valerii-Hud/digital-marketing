@@ -1,5 +1,6 @@
 @use '/src/sass/base/variables' as *;
 .services {
+  overflow: hidden;
   &__info {
     display: flex;
     align-items: center;
