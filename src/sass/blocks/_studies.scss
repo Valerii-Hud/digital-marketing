@@ -1,0 +1,47 @@
+@use '/src/sass/base/variables' as *;
+
+.studies {
+  margin-top: 140px;
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__title {
+    padding: 0 7px;
+    border-radius: 8px;
+    background-color: $main-color;
+  }
+  &__text {
+    width: 580px;
+  }
+  &__wrapper {
+    margin-top: 80px;
+    background-color: $dark-gray;
+    padding: 60px 0px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    width: 290px;
+  }
+  &__divider {
+    height: 186px;
+    width: 2px;
+    background-color: #fff;
+  }
+  &__descr {
+    color: #fff;
+    font-size: 20px;
+  }
+  &__link {
+    font-size: 30px;
+    margin-top: 20px;
+    color: $main-color;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
